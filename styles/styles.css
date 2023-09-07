@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Balgruf;
+    src: url(styles/fonts/Balgruf-31cd.woff2);
+}
+
+#head-nav {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    font-family: Balgruf;
+    font-size: 100px;
+}
