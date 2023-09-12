@@ -1,12 +1,30 @@
+* {
+    transition: opacity 1s ease-in-out;
+}
+
 @font-face {
     font-family: 'Balgruf';
     src: url(styles/fonts/Balgruf-31cd.woff2);
 }
 
 body {
-    background-image: url('https://staticdelivery.nexusmods.com/images/1704/32069220-1501844596.jpg');
+    background-image: url(/images/skyrim-whiterun.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p,
+h3 {
+    font-family: Balgruf;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
 }
 
 .nav-link:hover {
@@ -19,20 +37,67 @@ body {
     font-family: Balgruf !important;
 }
 
-p,
-h3 {
-    font-family: Balgruf;
-    color: white;
+/* 
+    Used for fading in and out. By
+    default, it is enabled on
+    whatever element is needed
+    to be faded in. Then, when it
+    is time to be faded in,
+    it is removed with javascript.
+*/
+.fade-out {
+    opacity: 0;
 }
 
-p {
-    font-size: 17px;
-}
-
-#text-box {
-    background-color: rgba(0, 0, 0, 0.553); 
-    border-radius: 10px;
+.text-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    border: 3px solid rgb(189, 189, 189);
     text-align: center;
-    border-color: white;
-    border-width: 10px;
+}
+
+.img-box {
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.552);
+}
+
+#introduction {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    width: 500px;
+    height: 600px;
+}
+
+#intro-article {
+    padding: 10px;
+}
+
+#intro-text {
+    text-align: center;
+    font-size: 100%;
+    font-size: 16.5px;
+}
+
+#guard {
+    position: absolute;
+    top: 70px;
+    left: 670px;
+}
+
+#guard-img {
+    position: relative;
+    left: -150px;
+}
+
+#continue {
+    position: relative;
+    top: -20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20px;
+    font-family: Balgruf;
+    font-size: 30px;
 }
