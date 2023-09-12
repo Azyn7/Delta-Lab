@@ -1,17 +1,38 @@
 @font-face {
-    font-family: Balgruf;
+    font-family: 'Balgruf';
     src: url(styles/fonts/Balgruf-31cd.woff2);
 }
 
-#head-nav {
-    display: inline;
+body {
+    background-image: url('https://staticdelivery.nexusmods.com/images/1704/32069220-1501844596.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-li {
-    display: inline;
+.nav-link:hover {
+    border-radius: 30px;
+    background-color: #b9b9b9;
+}
+
+.navbar-brand,
+.nav-item {
+    font-family: Balgruf !important;
+}
+
+p,
+h3 {
+    font-family: Balgruf;
+    color: white;
 }
 
 p {
-    font-family: Balgruf;
-    font-size: 100px;
+    font-size: 17px;
+}
+
+#text-box {
+    background-color: rgba(0, 0, 0, 0.553); 
+    border-radius: 10px;
+    text-align: center;
+    border-color: white;
+    border-width: 10px;
 }
