@@ -26,11 +26,11 @@
         </div>
       </nav>
 
-      <div class="text-box fade-out" id="introduction">
+      <div class="text-box fade-in-out" id="introduction">
         <h3 style="position: relative; top: 10px;">Welcome to Whiterun!</h3>
         <article id="intro-article">
           <p id="intro-text">Your adventure has just begun. After escaping Helgan with your head,
-            meandering around Riften, exploring the mountain to its north, and the
+            meandering around Riverwood, exploring the mountain to its north, and the
             accompanying crypts, you've finally found your way to Whiterun, as 
             was instructed by the man who helped you escape.<br><br>
 
@@ -48,11 +48,33 @@
             he approached with purpose. 
           </p>
         </article>
-        <button id="continue">Click to continue.</button>
+        <button class="continue" id="button-one">Click to continue.</button>
       </div>
 
-      <div class="img-box text-box fade-out" id="guard">
+      <div class="img-box text-box fade-in-out" id="guard">
         <img id="guard-img" width="600" height="600" src="/images/whiterun-guard.jpg">
+      </div>
+
+      <div class="text-box fade-in-out" id="dialogue">
+        <p id="dialogue-text">
+          Finally, after a moments hesitation, the guard speaks: <br>
+          <br>
+          "Halt. You, there, what purpose enter into the town ye? Carrying around such a 
+          large blade, and this red substance? Is that blood? For what purpose? 
+          You have no venison, nor pelts, from what I can make. What be your name?" <br>
+          <br>
+          As the man finished up his examination, he pulls from his cloak a book. The
+          contents of the book are unknown to you. So, unsure of what to do, you decide
+          it is best to comply, offering up your name:
+        </p>
+
+        <div class="fade-in-out" id="response">
+          <p class="fade-in-out" id="response-name">NAME</p>
+          <input type="text" maxlength="16" id="name">
+          <button id="submit-response">answered ye.</button>
+        </div>
+
+        <p class="fade-in-out" id="finale">test</p>
       </div>
 
 
