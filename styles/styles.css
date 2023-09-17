@@ -17,7 +17,7 @@ Font not working for Pages, for some reason.
 Had to change from file directory to online URL. File directory was not working.
 */
 body {
-    background-image: url("https://staticdelivery.nexusmods.com/images/1704/32069220-1501844596.jpg");
+    background-image: url(https://staticdelivery.nexusmods.com/images/1704/32069220-1501844596.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
