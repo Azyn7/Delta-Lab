@@ -11,7 +11,7 @@
     All tag related styles.
 *********************************/
 body {
-    background-image: url(https://raw.githubusercontent.com/Azyn7/Delta-Lab/main/images/skyrim-whiterun.jpeg);
+    background-image: url(main/images/skyrim-whiterun.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
