@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: 'Balgruf';
-    src: url(styles/fonts/Balgruf-31cd.woff2);
+    src: url(./styles/fonts/Balgruf-31cd.woff2);
 }
 
 /*********************************
     All tag related styles.
 *********************************/
 body {
-    background-image: url(/images/skyrim-whiterun.jpeg);
+    background-image: url(./images/skyrim-whiterun.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
