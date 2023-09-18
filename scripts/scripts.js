@@ -84,7 +84,7 @@ function guardResponse(userName) {
                          + "that, the guard skirted off at the speed of light, leaving you to scratch your head in "
                          + "confusion. And, so, you left on your way to continue your journey. THE END.";
     // Checks if a last name is present, if so, gives you different endings.
-    } else if (lnameIndex != 0) {
+    } else if (lnameIndex > 0) {
         console.log("Test");
         if (isBetweenAandH) {
             let isBetweenAandH = (fnameSpelledOut[0].toLowerCase() >= "a" && fnameSpelledOut[0].toLowerCase() <= "h");
