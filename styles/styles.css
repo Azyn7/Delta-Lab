@@ -2,16 +2,22 @@
     transition: opacity 1s ease-in-out;
 }
 
+/*
+Font not working for Pages, for some reason.
+*/
 @font-face {
     font-family: 'Balgruf';
-    src: url(styles/fonts/Balgruf-31cd.woff2);
+    src: url("./styles/fonts/Balgruf-31cd.woff2");
 }
 
 /*********************************
     All tag related styles.
 *********************************/
+/*
+Had to change from file directory to online URL. File directory was not working.
+*/
 body {
-    background-image: url(/images/skyrim-whiterun.jpeg);
+    background-image: url(https://staticdelivery.nexusmods.com/images/1704/32069220-1501844596.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
