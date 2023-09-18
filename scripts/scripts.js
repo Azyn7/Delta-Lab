@@ -85,11 +85,10 @@ function guardResponse(userName) {
                          + "confusion. And, so, you left on your way to continue your journey. THE END.";
     // Checks if a last name is present, if so, gives you different endings.
     } else if (lnameIndex > 0) {
-        console.log("Test");
+        let isBetweenAandH = (fnameSpelledOut[0].toLowerCase() >= "a" && fnameSpelledOut[0].toLowerCase() <= "h");
+        let isBetweenIandP = (fnameSpelledOut[0].toLowerCase() >= "i" && fnameSpelledOut[0].toLowerCase() <= "p");
+        let isBetweenQandZ = (fnameSpelledOut[0].toLowerCase() >= "q" && fnameSpelledOut[0].toLowerCase() <= "z");
         if (isBetweenAandH) {
-            let isBetweenAandH = (fnameSpelledOut[0].toLowerCase() >= "a" && fnameSpelledOut[0].toLowerCase() <= "h");
-            let isBetweenIandP = (fnameSpelledOut[0].toLowerCase() >= "i" && fnameSpelledOut[0].toLowerCase() <= "p");
-            let isBetweenQandZ = (fnameSpelledOut[0].toLowerCase() >= "q" && fnameSpelledOut[0].toLowerCase() <= "z");
             // Outlaw Ending
             guardRespond += "\"" + fnameSpelledOut + " " + lnameSpelledOut + "\" the guard muttered, spelling out the "
                              + "name you gave him. \"It says here...\" He pauses for a moment. "
