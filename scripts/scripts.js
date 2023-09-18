@@ -85,6 +85,7 @@ function guardResponse(userName) {
                          + "confusion. And, so, you left on your way to continue your journey. THE END.";
     // Checks if a last name is present, if so, gives you different endings.
     } else if (lnameIndex != 0) {
+        console.log("Test");
         if (isBetweenAandH) {
             let isBetweenAandH = (fnameSpelledOut[0].toLowerCase() >= "a" && fnameSpelledOut[0].toLowerCase() <= "h");
             let isBetweenIandP = (fnameSpelledOut[0].toLowerCase() >= "i" && fnameSpelledOut[0].toLowerCase() <= "p");
