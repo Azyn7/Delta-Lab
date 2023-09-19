@@ -25,9 +25,10 @@ function nextStep() {
 
 // Function used for when user presses the "answered ye" button.
 function submitName() {
+    let userName = "";
     $("#submit-response").click(function() {
         // Gets the username from the user.
-        let userName = $("#name").val();
+        userName = $("#name").val();
 
         // fades out the button and input elements.
         $("#name").addClass("fade-in-out");
